@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Soliden Trial';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Soliden Trial Regular'), url('/fonts/SolidentrialRegular-gxrx1.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Soliden Trial';
+    font-style: normal;
+    font-weight: bold;
+    src: local('Soliden Trial Bold'), url('/fonts/SolidentrialBold-1GVGZ.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Soliden Trial Bold Expanded';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Soliden Trial Bold Expanded'), url('/fonts/SolidentrialBoldexpanded-8MVMz.woff') format('woff');
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #141E46;
+    color: #F0FFF9;
+    padding: 10% 15% 0px 50%;
+    animation: start 1.5s;
+}
+
+p {
+    font-family: 'Soliden Trial';
+    margin: 0;
+}
+
+@keyframes start {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+.content-text strong {
+    color: aqua;
+}
