@@ -9,8 +9,7 @@
 
 }
 
-.about-me-container,
-.projects-container {
+.sub-container {
     display: flex;
     flex-direction: column;
     align-items: start;

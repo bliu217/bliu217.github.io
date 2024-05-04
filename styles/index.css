@@ -91,7 +91,7 @@
 
 .about-button:hover,
 .projects-button:hover,
-.contact-button:hover {
+.art-button:hover {
     text-shadow: 0px 0px 15px #00e55c71;
     color: #67ffac;
 }
