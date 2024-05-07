@@ -1,0 +1,54 @@
+@media all and (max-width: 1024px) {
+    body {
+        padding: 0px;
+    }
+
+    .total {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .main-container {
+        position: relative;
+        margin: 0px;
+        padding: 0px;
+        top: 0px;
+        left: 0px;
+        max-width: 100%;
+        
+    }
+
+    .content-container {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .icons {
+        margin-bottom: 1rem;
+    }
+
+    .navigation {
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    section {
+        opacity: 1;
+    }
+
+    .image-carousel {
+        height: 300px;
+    }
+
+    .slider {
+        height: inherit;
+        scrollbar-width: thin;
+    }
+
+    .slider-nav {
+        display: none;
+    }
+
+
+}

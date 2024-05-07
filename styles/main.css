@@ -26,9 +26,10 @@
     flex-direction: column;
     justify-content: left;
     position: fixed;
-    /* top: 230px; */
-    left: 15%;
-    max-width: 25%;
+    top: 200px;
+    left: 10%;
+    margin-left: 5rem;
+    max-width: 20%;
     z-index: 100;
 }
 
@@ -36,14 +37,14 @@
     font-family: 'Soliden Trial';
     font-weight: normal;
     font-size: 48px;
-    margin-bottom: 26px;
+    margin-bottom: 2rem;
 }
 
 .intro {
     font-family: 'Soliden Trial';
     font-size: 16px;
     line-height: 1.5;
-    margin-bottom: 26px;
+    margin-bottom: 2rem;
 }
 
 .icons {

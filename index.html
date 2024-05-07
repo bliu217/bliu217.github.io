@@ -2,10 +2,11 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/content.css">
     <link rel="stylesheet" href="styles/image-carousel.css">
+    <link rel="stylesheet" href="styles/tablet-view.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,101 +19,102 @@
 
 
     <!-- <div class="divider"></div> -->
-
-
-    <div class="main-container">
-        <p class="lead">Hi, I’m <a class="header" href="index.html"><strong>Bernard.</strong></a></p>
-        <p class="intro">An aspiring first year student at UBC
-            with a passion for making cool stuff \\
-        </p>
-        <div class="icons">
-            <a href="https://www.linkedin.com/in/bernardliu217/" target="_blank">
-                <img src="assets/linkedin-icon.png">
-            </a>
-            <a href="https://github.com/bliu217" target="_blank">
-                <img src="assets/github-icon.png">
-            </a>
-            <a href="https://www.instagram.com/bernardd_l2/" target="_blank">
-                <img src="assets/instagram-icon.png">
-            </a>
-
-        </div>
-
-        <div class="navigation">
-            <a class="about-button" href="#about">ABOUT</a>
-            <a class="projects-button" href="#projects">PROJECTS</a>
-            <a class="art-button" href="#art">ART</a>
-        </div>
-    </div>
-
-    <div class="content-container">
-        <section id="about">
-            <div class="sub-container">
-                <h2 class="section-heading">about me</h2>
-                <p class="content-text">
-                    After making a YouTube channel at the concerning age of seven,
-                    I have since been fascinated with ways to express myself through
-                    technological means. I started creating Photoshop projects in
-                    middle school, which led me to love graphic design and UI/UX.
-                    <br><br>
-                    As of recent, I have been mostly focusing on OOP, as I aim to become a seasoned software engineer.
-                    I have a foundation in <strong>Java</strong>, <strong>Python</strong>, <strong>HTML</strong>, and <strong>CSS</strong>.
-                    <br><br>
-                    On the rare occasions where I’m not studying or working, I deeply
-                    enjoy listening, analyzing, and creating music. I’m also passionate
-                    about shoes, keyboards, the gym, badminton, dancing, and the
-                    list goes on...
-                </p>
-            </div>
-        </section>
-        
-        <section id="projects">
-            <div class="sub-container">
-                <h2 class="section-heading" id="projects">projects</h2>
+    <div class="total">
+        <div class="main-container">
+            <p class="lead">Hi, I’m <a class="header" href="index.html"><strong>Bernard.</strong></a></p>
+            <p class="intro">An aspiring first year student at UBC
+                with a passion for making cool stuff \\
+            </p>
+            <div class="icons">
+                <a href="https://www.linkedin.com/in/bernardliu217/" target="_blank">
+                    <img src="assets/linkedin-icon.png">
+                </a>
+                <a href="https://github.com/bliu217" target="_blank">
+                    <img src="assets/github-icon.png">
+                </a>
+                <a href="https://www.instagram.com/bernardd_l2/" target="_blank">
+                    <img src="assets/instagram-icon.png">
+                </a>
     
-                <div class="project-card">
-                    <a href="https://github.com/bliu217/Retail-Tycoon" target="_blank"></a>
-                    <img class="app-icon" src="assets/AppIcon.jpg">
-                    <div class="project-info">
-                        <p class="project-title">Retail Tycoon</p>
-                        <p class="project-description">Simple idle game to manage a store built
-                            on Java Swing GUI library
-                        </p>
-                        <div class="tags">
-                            <div>Java</div>
+            </div>
+    
+            <div class="navigation">
+                <a class="about-button" href="#about">ABOUT</a>
+                <a class="projects-button" href="#projects">PROJECTS</a>
+                <a class="art-button" href="#art">ART</a>
+            </div>
+        </div>
+    
+        <div class="content-container">
+            <section id="about">
+                <div class="sub-container">
+                    <h2 class="section-heading">about me</h2>
+                    <p class="content-text">
+                        After making a YouTube channel at the concerning age of seven,
+                        I have since been fascinated with ways to express myself through
+                        technological means. I started creating Photoshop projects in
+                        middle school, which led me to love graphic design and UI/UX.
+                        <br><br>
+                        As of recent, I have been mostly focusing on OOP, as I aim to become a seasoned software engineer.
+                        I have a foundation in <strong>Java</strong>, <strong>Python</strong>, <strong>HTML</strong>, and <strong>CSS</strong>.
+                        <br><br>
+                        On the rare occasions where I’m not studying or working, I deeply
+                        enjoy listening, analyzing, and creating music. I’m also passionate
+                        about shoes, keyboards, the gym, badminton, dancing, and the
+                        list goes on...
+                    </p>
+                </div>
+            </section>
+            
+            <section id="projects">
+                <div class="sub-container">
+                    <h2 class="section-heading" id="projects">projects</h2>
+        
+                    <div class="project-card">
+                        <a href="https://github.com/bliu217/Retail-Tycoon" target="_blank"></a>
+                        <img class="app-icon" src="assets/AppIcon.jpg">
+                        <div class="project-info">
+                            <p class="project-title">Retail Tycoon</p>
+                            <p class="project-description">Simple idle game to manage a store built
+                                on Java Swing GUI library
+                            </p>
+                            <div class="tags">
+                                <div>Java</div>
+                            </div>
+                            
                         </div>
-                        
-                    </div>
-    
-                    <img class="arrow" src="assets/circle-arrow-top-right.png">
-                </div>
-            </div>
-        </section>
-
-        <section id="art">
-            <div class="sub-container">
-                <h2 class="section-heading">art</h2>
-
-                <div class="image-carousel">
-                    <div class="slider">
-                        <img class="image-panel" id="slide-1" src="assets/art/kidney beans.jpg">
-                        <img id="slide-2" src="assets/art/gravity.jpg">
-                        <img id="slide-3" src="assets/art/mp.jpg">
-                        <img id="slide-4" src="assets/art/tempt.jpg">
-                        <img id="slide-5" src="assets/art/vision2.jpg">
-                    </div>
-                    <div class="slider-nav">
-                        <a href="#slide-1"></a>
-                        <a href="#slide-2"></a>
-                        <a href="#slide-3"></a>
-                        <a href="#slide-4"></a>
-                        <a href="#slide-5"></a>
-                    </div>
-                </div>
-            </div>
-        </section>
         
+                        <img class="arrow" src="assets/circle-arrow-top-right.png">
+                    </div>
+                </div>
+            </section>
+    
+            <section id="art">
+                <div class="sub-container">
+                    <h2 class="section-heading">art</h2>
+    
+                    <div class="image-carousel">
+                        <div class="slider">
+                            <img class="image-panel" id="slide-1" src="assets/art/kidney beans.jpg">
+                            <img id="slide-2" src="assets/art/gravity.jpg">
+                            <img id="slide-3" src="assets/art/mp.jpg">
+                            <img id="slide-4" src="assets/art/tempt.jpg">
+                            <img id="slide-5" src="assets/art/vision2.jpg">
+                        </div>
+                        <div class="slider-nav">
+                            <a href="#slide-1"></a>
+                            <a href="#slide-2"></a>
+                            <a href="#slide-3"></a>
+                            <a href="#slide-4"></a>
+                            <a href="#slide-5"></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+        </div>
     </div>
+
 
 
 
