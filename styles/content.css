@@ -4,7 +4,7 @@
     position: relative;
     /* right: 15rem; */
     max-width: 700px;
-    margin-bottom: 10rem;
+    margin: 10rem 0px;
     /* height: 2000px; */
     gap: 80px;
     /* background-color: rgba(0, 0, 0, .5); */
@@ -71,6 +71,7 @@ section.show {
 
 .app-icon {
     width: 30%;
+    min-width: 100px;
     height: 30%;
     border-radius: 20px;
     margin: 2rem;

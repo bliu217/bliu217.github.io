@@ -26,11 +26,13 @@
     flex-direction: column;
     justify-content: left;
     position: fixed;
-    top: 200px;
+    top: 0px;
     left: 10%;
     margin-left: 5rem;
     max-width: 20%;
     z-index: 100;
+    padding: 15% 0px;
+    height: 100%;
 }
 
 .lead {
@@ -52,7 +54,7 @@
     grid-template-columns: 32px 32px 32px;
     column-gap: 14px;
     margin-left: -4px;
-    margin-bottom: 80px;
+    margin-bottom: 16%;
 
 }
 
@@ -76,14 +78,18 @@
 .navigation {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     font-family: Inconsolata;
     font-weight: 700;
     font-size: 18px;
     color: #3EBB8E;
+    padding-bottom: 20px;
+    flex: 1;
+    max-height: 100px;
 }
 
 .navigation a {
-    margin-bottom: 27px;
+    /* margin-bottom: 27px; */
     text-decoration: none;
     color: inherit;
     width: fit-content;
