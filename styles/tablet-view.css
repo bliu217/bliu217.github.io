@@ -44,6 +44,7 @@
     .slider {
         height: inherit;
         scrollbar-width: thin;
+        scroll-snap-type: none;
     }
 
     .slider-nav {
