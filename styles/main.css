@@ -49,9 +49,10 @@
     margin-bottom: 2rem;
 }
 
+/* the icon color is #F0FFF9 */
 .icons {
     display: grid;
-    grid-template-columns: 32px 32px 32px;
+    grid-template-columns: 32px 32px 32px 32px;
     column-gap: 14px;
     margin-left: -4px;
     margin-bottom: 16%;
