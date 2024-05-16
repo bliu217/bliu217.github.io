@@ -53,6 +53,7 @@ section.show {
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.05);
     transition: background-color 0.3s, box-shadow 0.3s;
+    margin-bottom: 25px;
     
 }
 
@@ -110,11 +111,15 @@ section.show {
 
 .project-description {
     width: 80%;
+    line-height: 1.4rem;
 }
 
 .tags {
+    margin-right: 10px;
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
+        flex-basis: min-content;
+        width: 80%;
 }
 
 .tags div {
@@ -128,6 +133,7 @@ section.show {
     color: #00FF99;
     border-radius: 30px;
     margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 
